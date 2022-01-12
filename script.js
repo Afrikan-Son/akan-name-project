@@ -26,5 +26,5 @@ $('#submit').on('click', () => {
         akanName = girls[weekday];
       }
 
-      alert('Your Akan Name is ' + akanName + '!');
+      window.alert('Your Akan Name is ' + akanName + '!');
     });
