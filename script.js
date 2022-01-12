@@ -7,7 +7,10 @@ let boys = new Array("Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwam
 
 let girls = new Array("Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama");
 
-$('#submit').on('click', () => {
+$( document ).ready(function() {
+  $('#submit').on('click', (event) => {
+
+    event.preventDefault()
     var date = new Date($('#birthdate').val());
     var gender = $("input[name='gender']:checked").val();
     day = date.getDate();
@@ -25,6 +28,7 @@ $('#submit').on('click', () => {
       else {
         akanName = girls[weekday];
       }
-
-      window.alert('Your Akan Name is ' + akanName + '!');
+console.log("I am clicked")
+      alert('Your Akan Name is ' + akanName + '!');
     });
+});
