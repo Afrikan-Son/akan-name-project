@@ -18,7 +18,7 @@ https://afrikan-son.github.io/akan-name-project/
 There are no bugs in the website.
 ## Technologies Used
  HTML
- CSS
+ JavaScript
 ## Support and contact details
 theafrikanson@gmail.com
 ### License
