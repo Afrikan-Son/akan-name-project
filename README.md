@@ -1,5 +1,5 @@
 # akan-name-project
-#### This is a website from a software developer! {Jan. 2022}
+#### This is a website from a software developer. {Jan. 2022}
 #### By **Afrikan Son**
 ## Description
 This is a website that contains a page that generates an Akan Name, from the Ghanaian community.
