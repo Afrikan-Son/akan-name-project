@@ -25,3 +25,6 @@ $('#submit').on('click', () => {
       else {
         akanName = girls[weekday];
       }
+
+      alert('Your Akan Name is ' + akanName + '!');
+    });
