@@ -18,4 +18,10 @@ $('#submit').on('click', () => {
     let calculatingYear = parseInt(yearString.slice(2,5));
     let day_of_week = (((century/4)-2*century-1) + ((5*calculatingYear/4)) + ((26*(month+1)/10)) + day) % 7;
     let weekday = Math.trunc(day_of_week);
-    
+
+    if (gender == 'male') {
+        akanName = boys[weekday];
+      }
+      else {
+        akanName = girls[weekday];
+      }
